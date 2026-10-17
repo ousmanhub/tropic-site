@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GROUPE TROPIC — Énergie solaire, commerce général, transport</title>
-  <meta name="description" content="Holding tchadienne : énergie solaire, commerce général, transport. N'Djamena, Tchad.">
+  <meta name="description" content="Groupe multiservices tchadien : énergie solaire, commerce général, transport. N'Djamena, Tchad.">
   <meta property="og:title" content="GROUPE TROPIC">
-  <meta property="og:description" content="Holding tchadienne : énergie solaire, commerce général, transport.">
+  <meta property="og:description" content="Énergie solaire, commerce général et transport au service des entreprises et institutions. N'Djamena, Tchad.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:locale:alternate" content="en_US">
@@ -22,63 +22,122 @@
   <header class="top" id="top">
     <nav class="nav" aria-label="Principal">
       <a class="brand" href="#top">
-        <img src="assets/logo.svg" alt="GROUPE TROPIC" width="170" height="52">
+        <img src="assets/logo.svg" alt="GROUPE TROPIC" width="150" height="46">
       </a>
       <div class="nav-links">
+        <a href="#apropos" data-i18n="nav_about">À propos</a>
         <a href="#poles" data-i18n="nav_poles">Pôles</a>
+        <a href="#pourquoi" data-i18n="nav_why">Pourquoi nous</a>
         <a href="#contact" data-i18n="nav_contact">Contact</a>
       </div>
-      <button class="lang" id="langBtn" type="button" aria-label="Changer de langue / Switch language">
-        <span class="lang-opt is-active" data-lang="fr">FR</span>
-        <span class="lang-sep" aria-hidden="true"></span>
-        <span class="lang-opt" data-lang="en">EN</span>
-      </button>
+      <div class="nav-actions">
+        <button class="lang" id="langBtn" type="button" aria-label="Changer de langue / Switch language">
+          <span class="lang-opt is-active" data-lang="fr">FR</span>
+          <span class="lang-sep" aria-hidden="true"></span>
+          <span class="lang-opt" data-lang="en">EN</span>
+        </button>
+        <a class="btn btn--gold btn--nav" href="#devis" data-i18n="cta_quote">Demander un devis</a>
+      </div>
     </nav>
   </header>
 
   <main id="main">
+
+    <!-- ===================== HÉROS ===================== -->
     <section class="hero reveal" aria-labelledby="hero-title">
       <h1 id="hero-title">
         <span class="hero-kicker">GROUPE</span>
         <span class="hero-name">TROPIC</span>
         <span class="hero-rule" aria-hidden="true"></span>
       </h1>
-      <p class="hero-tag" data-i18n="hero_tag">Holding tchadienne : énergie solaire, commerce général, transport.</p>
-      <div class="hero-cta">
-        <a class="btn btn--gold" href="#contact" data-i18n="cta_contact">Nous contacter</a>
-        <a class="btn btn--ghost" href="#poles" data-i18n="cta_poles">Voir les pôles</a>
+      <p class="hero-tag" data-i18n="hero_tag">Énergie solaire, commerce général et transport au service des entreprises et institutions.</p>
+      <div class="hero-deco" aria-hidden="true">
+        <svg viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="200" cy="200" r="52"/>
+          <circle cx="200" cy="200" r="86"/>
+          <circle cx="200" cy="200" r="120"/>
+          <circle cx="200" cy="200" r="154"/>
+          <circle cx="200" cy="200" r="188"/>
+        </svg>
       </div>
+      <div class="hero-cta">
+        <a class="btn btn--gold" href="#devis" data-i18n="cta_quote">Demander un devis</a>
+        <a class="btn btn--ghost" href="#poles" data-i18n="cta_poles">Découvrir nos pôles</a>
+      </div>
+      <ul class="hero-stats" role="list" aria-label="Points clés">
+        <li><span class="hs-label" data-i18n="s1_k">Activités</span><span class="hs-value" data-i18n="s1_v">Trois pôles complémentaires</span></li>
+        <li><span class="hs-label" data-i18n="s2_k">Marché</span><span class="hs-value" data-i18n="s2_v">N'Djamena &amp; région</span></li>
+        <li><span class="hs-label" data-i18n="s3_k">Approche</span><span class="hs-value" data-i18n="s3_v">Orientée résultats</span></li>
+        <li><span class="hs-label" data-i18n="s4_k">Clients</span><span class="hs-value" data-i18n="s4_v">PME à institutions</span></li>
+      </ul>
     </section>
 
+    <!-- ===================== À PROPOS ===================== -->
+    <section class="about" id="apropos">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="about_eyebrow">À propos</p>
+        <h2 data-i18n="about_title">Un groupe tchadien structuré et ambitieux.</h2>
+        <p class="section-intro" data-i18n="about_intro">Né à N'Djamena, GROUPE TROPIC fédère des activités complémentaires autour d'une même exigence : travailler avec méthode, tenir ses engagements et servir durablement le marché tchadien.</p>
+      </header>
+      <div class="about-grid">
+        <article class="about-item reveal">
+          <h3 data-i18n="about_m1_k">Mission</h3>
+          <p data-i18n="about_m1_v">Simplifier l'accès à l'énergie, aux biens d'équipement et au transport pour les entreprises, institutions et particuliers du Tchad.</p>
+        </article>
+        <article class="about-item reveal" style="--d:.08s">
+          <h3 data-i18n="about_m2_k">Vision</h3>
+          <p data-i18n="about_m2_v">Devenir une référence multiservices au Tchad, reconnue pour sa rigueur et sa capacité d'exécution.</p>
+        </article>
+      </div>
+      <ul class="values reveal" aria-label="Nos valeurs">
+        <li data-i18n="v1">Exigence</li>
+        <li data-i18n="v2">Intégrité</li>
+        <li data-i18n="v3">Proximité</li>
+        <li data-i18n="v4">Méthode</li>
+        <li data-i18n="v5">Engagement</li>
+      </ul>
+    </section>
+
+    <!-- ===================== PÔLES ===================== -->
     <section class="poles" id="poles">
       <header class="section-head reveal">
-        <h2 data-i18n="poles_title">Trois pôles, une même exigence</h2>
-        <p data-i18n="poles_intro">Sous la marque ombrelle GROUPE TROPIC, trois activités répondent à une même exigence de sérieux.</p>
+        <p class="eyebrow" data-i18n="poles_eyebrow">Nos pôles</p>
+        <h2 data-i18n="poles_title">Trois pôles, une même exigence.</h2>
+        <p class="section-intro" data-i18n="poles_intro">Chaque pôle opère avec ses spécialistes, ses méthodes et son suivi, sous la bannière GROUPE TROPIC.</p>
       </header>
 
       <article class="pole reveal">
         <div class="pole-media">
           <svg viewBox="0 0 480 360" role="img" aria-label="Énergie solaire" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="372" cy="78" r="30" pathLength="1" style="--i:0"/>
-            <line x1="372" y1="36" x2="372" y2="22" pathLength="1" style="--i:1"/>
-            <line x1="401" y1="49" x2="411" y2="39" pathLength="1" style="--i:2"/>
-            <line x1="414" y1="78" x2="428" y2="78" pathLength="1" style="--i:3"/>
-            <line x1="401" y1="107" x2="411" y2="117" pathLength="1" style="--i:4"/>
-            <line x1="372" y1="120" x2="372" y2="134" pathLength="1" style="--i:5"/>
-            <line x1="343" y1="107" x2="333" y2="117" pathLength="1" style="--i:6"/>
-            <line x1="330" y1="78" x2="316" y2="78" pathLength="1" style="--i:7"/>
-            <line x1="343" y1="49" x2="333" y2="39" pathLength="1" style="--i:8"/>
-            <path d="M100 170 L280 170 L330 258 L70 258 Z" pathLength="1" style="--i:9"/>
-            <path d="M160 170 L157 258" pathLength="1" style="--i:10"/>
-            <path d="M220 170 L243 258" pathLength="1" style="--i:11"/>
-            <path d="M85 214 H305" pathLength="1" style="--i:12"/>
-            <path d="M140 258 V296 M230 258 V296" pathLength="1" style="--i:13"/>
-            <path d="M90 296 H320" pathLength="1" style="--i:14"/>
+            <circle cx="150" cy="90" r="28" pathLength="1" style="--i:0"/>
+            <g class="rays">
+              <line x1="150" y1="56" x2="150" y2="44" pathLength="1" style="--i:1"/>
+              <line x1="178" y1="73" x2="188" y2="66" pathLength="1" style="--i:1"/>
+              <line x1="184" y1="90" x2="197" y2="90" pathLength="1" style="--i:1"/>
+              <line x1="178" y1="107" x2="188" y2="114" pathLength="1" style="--i:1"/>
+              <line x1="150" y1="124" x2="150" y2="136" pathLength="1" style="--i:1"/>
+              <line x1="122" y1="107" x2="112" y2="114" pathLength="1" style="--i:1"/>
+              <line x1="116" y1="90" x2="103" y2="90" pathLength="1" style="--i:1"/>
+              <line x1="122" y1="73" x2="112" y2="66" pathLength="1" style="--i:1"/>
+            </g>
+            <path d="M240 128 H384 V236 H240 Z" pathLength="1" style="--i:2"/>
+            <path d="M264 128 V236 M312 128 V236 M360 128 V236" pathLength="1" style="--i:3"/>
+            <path d="M240 165 H384 M240 202 H384" pathLength="1" style="--i:4"/>
+            <path d="M288 236 V274 M336 236 V274" pathLength="1" style="--i:5"/>
+            <path d="M260 274 H364" pathLength="1" style="--i:6"/>
           </svg>
         </div>
         <div class="pole-body">
+          <p class="pole-num" aria-hidden="true">01</p>
           <h3 data-i18n="pole1_title">Énergie solaire</h3>
-          <p data-i18n="pole1_text">Étude, fourniture et installation de systèmes solaires pour les entreprises, les institutions et les particuliers, jusqu'à la mise en service.</p>
+          <p data-i18n="pole1_text">Éclairer, alimenter et équiper : des installations solaires dimensionnées pour votre site, votre budget et vos habitudes de consommation.</p>
+          <ul class="pole-tags" aria-label="Prestations">
+            <li data-i18n="p1a">Audit &amp; étude</li>
+            <li data-i18n="p1b">Dimensionnement</li>
+            <li data-i18n="p1c">Fourniture de matériel</li>
+            <li data-i18n="p1d">Installation</li>
+            <li data-i18n="p1e">Maintenance</li>
+          </ul>
         </div>
       </article>
 
@@ -98,8 +157,15 @@
           </svg>
         </div>
         <div class="pole-body">
+          <p class="pole-num" aria-hidden="true">02</p>
           <h3 data-i18n="pole2_title">Commerce général</h3>
-          <p data-i18n="pole2_text">Approvisionnement et distribution de biens d'équipement et de consommation, pour les professionnels comme pour les particuliers, à travers le Tchad.</p>
+          <p data-i18n="pole2_text">Approvisionner, sourcer et livrer ce qu'il faut, quand il faut : importation et distribution des biens d'équipement et de consommation.</p>
+          <ul class="pole-tags" aria-label="Prestations">
+            <li data-i18n="p2a">Approvisionnement</li>
+            <li data-i18n="p2b">Distribution</li>
+            <li data-i18n="p2c">Équipements professionnels</li>
+            <li data-i18n="p2d">Appui logistique</li>
+          </ul>
         </div>
       </article>
 
@@ -120,26 +186,140 @@
           </svg>
         </div>
         <div class="pole-body">
+          <p class="pole-num" aria-hidden="true">03</p>
           <h3 data-i18n="pole3_title">Transport</h3>
-          <p data-i18n="pole3_text">Transport de marchandises et logistique sur les axes nationaux et régionaux, avec un suivi attentif de chaque expédition.</p>
+          <p data-i18n="pole3_text">Déplacer ce qui compte : les axes nationaux et régionaux couverts, avec un suivi attentif à chaque étape de l'expédition.</p>
+          <ul class="pole-tags" aria-label="Prestations">
+            <li data-i18n="p3a">Marchandises</li>
+            <li data-i18n="p3b">Transport national</li>
+            <li data-i18n="p3c">Transport régional</li>
+            <li data-i18n="p3d">Suivi des expéditions</li>
+          </ul>
         </div>
       </article>
     </section>
 
+    <!-- ===================== POURQUOI NOUS ===================== -->
+    <section class="why" id="pourquoi">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="why_eyebrow">Pourquoi nous choisir</p>
+        <h2 data-i18n="why_title">La confiance se construit chaque jour.</h2>
+      </header>
+      <div class="why-grid">
+        <article class="why-item reveal"><h3 data-i18n="w1_k">Structure professionnelle</h3><p data-i18n="w1_v">Une organisation claire, des process documentés et des responsabilités définies.</p></article>
+        <article class="why-item reveal" style="--d:.06s"><h3 data-i18n="w2_k">Réactivité</h3><p data-i18n="w2_v">Des réponses rapides et un interlocuteur unique de bout en bout.</p></article>
+        <article class="why-item reveal" style="--d:.12s"><h3 data-i18n="w3_k">Proximité terrain</h3><p data-i18n="w3_v">Nous connaissons les réalités du terrain tchadien et de la sous-région.</p></article>
+        <article class="why-item reveal" style="--d:.18s"><h3 data-i18n="w4_k">Adaptation locale</h3><p data-i18n="w4_v">Des solutions calibrées pour le climat, la logistique et les usages du Tchad.</p></article>
+        <article class="why-item reveal" style="--d:.24s"><h3 data-i18n="w5_k">Exigence constante</h3><p data-i18n="w5_v">Du premier contact à la dernière livraison, le même niveau de sérieux.</p></article>
+        <article class="why-item reveal" style="--d:.3s"><h3 data-i18n="w6_k">Engagements tenus</h3><p data-i18n="w6_v">Ce que nous promettons, nous le tenons, dans les délais annoncés.</p></article>
+      </div>
+    </section>
+
+    <!-- ===================== CIBLES ===================== -->
+    <section class="audience" id="cibles">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="aud_eyebrow">Notre cible</p>
+        <h2 data-i18n="aud_title">À qui nous nous adressons.</h2>
+      </header>
+      <div class="aud-grid">
+        <article class="aud-item reveal"><h3 data-i18n="a1_k">PME &amp; Entrepreneurs</h3><p data-i18n="a1_v">Structurer votre énergie, vos approvisionnements et vos expéditions.</p></article>
+        <article class="aud-item reveal" style="--d:.06s"><h3 data-i18n="a2_k">Institutions publiques</h3><p data-i18n="a2_v">Appui au fonctionnement et à l'équipement, dans les délais imposés.</p></article>
+        <article class="aud-item reveal" style="--d:.12s"><h3 data-i18n="a3_k">ONG &amp; Associations</h3><p data-i18n="a3_v">Logistique rigoureuse à la hauteur de vos missions sur le terrain.</p></article>
+        <article class="aud-item reveal" style="--d:.18s"><h3 data-i18n="a4_k">Particuliers</h3><p data-i18n="a4_v">Installations solaires et livraisons, à l'échelle de votre foyer.</p></article>
+      </div>
+    </section>
+
+    <!-- ===================== DEVIS ===================== -->
+    <section class="quote" id="devis">
+      <div class="quote-inner">
+        <header class="reveal">
+          <p class="eyebrow" data-i18n="quote_eyebrow">Devis</p>
+          <h2 data-i18n="quote_title">Parlons de votre projet.</h2>
+          <ul class="quote-points">
+            <li><strong data-i18n="qp1_k">Devis personnalisé</strong><span data-i18n="qp1_v">Chaque proposition est calibrée sur votre site et votre budget.</span></li>
+            <li><strong data-i18n="qp2_k">Échange direct</strong><span data-i18n="qp2_v">Vous échangez avec un décideur, pas avec un standard.</span></li>
+            <li><strong data-i18n="qp3_k">Sans engagement</strong><span data-i18n="qp3_v">Une proposition claire, et vous restez libre de la suite.</span></li>
+          </ul>
+        </header>
+        <form class="quote-form reveal" id="quoteForm" autocomplete="on">
+          <label><span data-i18n="f_nom">Nom &amp; organisation</span><input type="text" name="nom" required></label>
+          <label><span data-i18n="f_mail">Email</span><input type="email" name="email" required></label>
+          <label><span data-i18n="f_tel">Téléphone</span><input type="tel" name="tel"></label>
+          <label><span data-i18n="f_service">Pôle concerné</span>
+            <select name="service" required>
+              <option value="" data-i18n="f_service_sel">Choisir</option>
+              <option data-i18n="f_service1">Énergie solaire</option>
+              <option data-i18n="f_service2">Commerce général</option>
+              <option data-i18n="f_service3">Transport</option>
+              <option data-i18n="f_serviceN">Autre / combiné</option>
+            </select>
+          </label>
+          <label class="full"><span data-i18n="f_msg">Votre besoin</span><textarea name="message" rows="4" required></textarea></label>
+          <button class="btn btn--gold btn--submit" type="submit" data-i18n="f_submit">Envoyer la demande</button>
+          <p class="form-note" data-i18n="f_note">Votre demande s'ouvre dans votre logiciel de mail : rien n'est stocké sur ce site.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq" id="faq">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="faq_eyebrow">FAQ</p>
+        <h2 data-i18n="faq_title">Vos questions, nos réponses.</h2>
+      </header>
+      <div class="faq-list">
+        <details class="reveal"><summary data-i18n="q1">Comment démarrer une collaboration ?</summary><p data-i18n="q1a">Un simple email ou appel suffit. Nous partons de votre besoin, vous recevez une proposition claire, puis nous fixons ensemble les modalités.</p></details>
+        <details class="reveal" style="--d:.06s"><summary data-i18n="q2">Quelle est votre zone d'intervention ?</summary><p data-i18n="q2a">N'Djamena et l'ensemble du Tchad pour les trois pôles, avec des capacités de transport vers les pays frontaliers.</p></details>
+        <details class="reveal" style="--d:.12s"><summary data-i18n="q3">Le devis est-il payant ?</summary><p data-i18n="q3a">La première discussion et l'estimation sont gratuites. Une étude détaillée (audit de site, cahier des charges) peut faire l'objet d'une facture distincte, annoncée avant tout travail.</p></details>
+        <details class="reveal" style="--d:.18s"><summary data-i18n="q4">Ponctuel ou récurrent ?</summary><p data-i18n="q4a">Les deux : livraison ponctuelle, contrat de maintenance, approvisionnement récurrent ou mission transport unique selon votre besoin.</p></details>
+        <details class="reveal" style="--d:.24s"><summary data-i18n="q5">Travaillez-vous aussi avec les particuliers ?</summary><p data-i18n="q5a">Oui : installations solaires de dimension familiale, livraisons et transport, avec le même niveau de suivi qu'un client institutionnel.</p></details>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
     <section class="contact" id="contact">
       <h2 class="reveal" data-i18n="contact_title">Contact</h2>
-      <p class="contact-intro reveal" data-i18n="contact_intro">Un projet, une question ? Écrivez-nous.</p>
+      <p class="contact-intro reveal" data-i18n="contact_intro">Écrivez-nous, appelez-nous : le premier échange ne coûte rien.</p>
       <a class="contact-mail reveal" href="mailto:contact@tropicgroupe.com">contact@tropicgroupe.com</a>
       <div class="contact-lines reveal">
         <a class="contact-tel" href="tel:+23566000000">+235 66 00 00 00</a>
-        <p class="contact-addr" data-i18n="contact_addr">Quartier Champs de Fil, N'Djamena, Tchad</p>
+        <p class="contact-addr" data-i18n="contact_addr">N'Djamena, Tchad</p>
       </div>
     </section>
   </main>
 
   <footer class="foot">
-    <img src="assets/logo.svg" alt="GROUPE TROPIC" width="120" height="37">
-    <p>© 2026 GROUPE TROPIC · N'Djamena, Tchad</p>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo.svg" alt="GROUPE TROPIC" width="140" height="43">
+        <p class="foot-quote" data-i18n="foot_quote">« Rigueur, proximité et exigence, au service du marché tchadien. »</p>
+      </div>
+      <nav class="foot-col" aria-label="Navigation">
+        <h4 data-i18n="foot_nav_k">Navigation</h4>
+        <a href="#top" data-i18n="nav_home">Accueil</a>
+        <a href="#apropos" data-i18n="nav_about">À propos</a>
+        <a href="#poles" data-i18n="nav_poles">Pôles</a>
+        <a href="#pourquoi" data-i18n="nav_why">Pourquoi nous</a>
+        <a href="#devis" data-i18n="nav_devis">Devis</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <nav class="foot-col" aria-label="Pôles">
+        <h4 data-i18n="foot_poles_k">Pôles</h4>
+        <a href="#poles" data-i18n="foot_p1">Énergie solaire</a>
+        <a href="#poles" data-i18n="foot_p2">Commerce général</a>
+        <a href="#poles" data-i18n="foot_p3">Transport</a>
+      </nav>
+      <address class="foot-col">
+        <h4 data-i18n="foot_contact_k">Contact</h4>
+        <a href="mailto:contact@tropicgroupe.com">contact@tropicgroupe.com</a>
+        <a href="tel:+23566000000">+235 66 00 00 00</a>
+        <span data-i18n="foot_addr">N'Djamena, Tchad</span>
+      </address>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 GROUPE TROPIC</p>
+      <p data-i18n="foot_made">Conçu avec exigence à N'Djaména.</p>
+    </div>
   </footer>
 
   <script src="js/app.js"></script>
